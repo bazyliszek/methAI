@@ -1,6 +1,9 @@
 # methAI
 Containes python scripts for methAI paper
 
+# Content
+
+
 # Abstract
 
 Aberrant methylation patterns in human DNA have great potential for the discovery of novel diagnostic and disease progression biomarkers. In this paper, we used machine learning algorithms to identify promising methylation sites for diagnosing cancerous tissue and to classify patients based on methylation values at these sites.
