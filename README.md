@@ -1,7 +1,7 @@
 # methAI
 Containes python scripts for methAI paper
 
-Abstract
+# Abstract
 
 Aberrant methylation patterns in human DNA have great potential for the discovery of novel diagnostic and disease progression biomarkers. In this paper, we used machine learning algorithms to identify promising methylation sites for diagnosing cancerous tissue and to classify patients based on methylation values at these sites.
 We used genome-wide DNA methylation patterns from both cancerous and normal tissue samples, obtained from the Genomic Data Commons consortium and trialled our methods on three types of urological cancer. A decision tree was used to identify the methylation sites most useful for diagnosis.
@@ -11,5 +11,5 @@ These methods could likely be translated to other cancers and improved by using 
 Keywords  AI, deep learning, biomarkers, decision tree, DNA methylation, machine learning, neural network, GDC, TCGA, urological cancers, prostate, kidney, bladder
 
 
-Pipeline
+# Pipeline
 ![alt text](https://github.com/bazyliszek/methAI/blob/main/img/basic%20pipeline.png)
