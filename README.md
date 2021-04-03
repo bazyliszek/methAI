@@ -19,14 +19,23 @@ createPcaSetv4 is given a folder containing subfolders containing jhu files. It 
 
 Takes the following arguments:
 -i Input folder where the superfolders of the jhu files to be processed can be found.
--s Controls how the training, validation, and testing sets are divided. Expects text in the form "a:b:c" or "a:b" where a is the training set, b is validation and c is testing. If testing is omitted then it is assumed to be 1-(a+b)
+
+-s Controls how the training, validation, and testing sets are divided. Expects text in the form "a\:b\:c" or "a\:b" where a is the training set, b is validation and c is testing. If testing is omitted then it is assumed to be 1-(a+b)
+
 -r random seed (used to ensure the same patients get sorted into the testing, training, and validation sets each time)
+
 -p If provided then the program will load the parameters from the file provided by -n. Overrides -d, -t, -a, and -b
+
 -t If provided then the program will decrease the dimensions using the decision tree instead of PCA.
+
 -d Specify the number of dimensions to keep after PCA or decisionTree.
+
 -a Sets the maximum proportion of NA values a patient can have before being discarded. Overridden if -p is set
+
 -b Sets the maximum proportion of NA values a cpg site can have before being discarded. Overridden if -p is set
+
 -o Output file name. If not specificed will create it in the same folder as the input with a generated name.
+
 -n Output parameter file name. Allows the PCA process to be run on a different dataset, but still reduce that data to a format compatible with the set that created the parameter file.
 
 
@@ -42,7 +51,7 @@ AI, deep learning, biomarkers, decision tree, DNA methylation, machine learning,
 
 
 # Simplified pipeline
-![alt text](https://github.com/bazyliszek/methAI/blob/main/img/Pipeline.png)
+![alt text](https://github.com/bazyliszek/methAI/blob/main/img/basic%20pipeline.png)
 
 # Using the tool
 
