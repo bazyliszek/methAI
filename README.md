@@ -51,7 +51,7 @@ AI, deep learning, biomarkers, decision tree, DNA methylation, machine learning,
 
 
 # Simplified pipeline
-![alt text](https://github.com/bazyliszek/methAI/blob/main/img/Pipeline.png)
+![alt text](https://github.com/bazyliszek/methAI/blob/main/img/Pipeline.gif)
 
 # Using the tool
 
