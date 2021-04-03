@@ -1,7 +1,7 @@
 '''
 Created on 21 Nov 2016
 
-@author: fruitdragon
+@team: marcin&jan
 '''
 
 from math import log
