@@ -1,5 +1,5 @@
 # methAI
-All scripts for methAI paper
+Containes python scripts for methAI paper
 
 Abstract
 
