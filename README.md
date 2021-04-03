@@ -8,7 +8,8 @@ We used genome-wide DNA methylation patterns from both cancerous and normal tiss
 	The identified locations were then used to train a neural network to classify samples as either cancerous or non-cancerous. Using this two-step approach we found strong indicative biomarker panels for each of the three cancer types.
 These methods could likely be translated to other cancers and improved by using non-invasive liquid methods such as blood instead of biopsy tissue.
 
-Keywords  AI, deep learning, biomarkers, decision tree, DNA methylation, machine learning, neural network, GDC, TCGA, urological cancers, prostate, kidney, bladder
+# Keywords
+AI, deep learning, biomarkers, decision tree, DNA methylation, machine learning, neural network, GDC, TCGA, urological cancers, prostate, kidney, bladder
 
 
 # Pipeline
