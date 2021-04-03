@@ -3,7 +3,8 @@ Containes python scripts for methAI paper
 
 # Content
 
-File 'nn.py' contains code to build and train a neural net on numerical input.
+File [nn.py](https://github.com/bazyliszek/methAI/blob/main/nn.py) contains code to build and train a neural net on numerical input.
+File [neuralPCAClassifier.py](https://github.com/bazyliszek/methAI/blob/main/neuralPCAClassifier.py) uses 'nn.py' to build a neural net with a specified architecture and train it to classify a data set.
 
 # Abstract
 
