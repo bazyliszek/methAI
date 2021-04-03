@@ -1,11 +1,17 @@
 # methAI
 Containes python scripts for methAI paper
 
-# Content
+# Summary
+
+[decisionTreeDimReduction.py](https://github.com/bazyliszek/methAI/blob/main/decisionTreeDimReduction.py) uses a decision tree to classify the data, and stores the locations the decision tree used to divide on. These locations are likely to be the most useful for other programs to classify the data.
+
+[createPcaSetv4.py](https://github.com/bazyliszek/methAI/blob/main/createPcaSetv4.py) takes as its input a folder containing files downloaded from TCGA. Reads the methylation data from each patient, then performs dimensional reduction to reduce the data to a smaller set, then separates the data into training, validation, and testing sets, then pickles the resulting object. That pickle file can be used by the rest of the program.
 
 [nn.py](https://github.com/bazyliszek/methAI/blob/main/nn.py) contains code to build and train a neural net on numerical input.
 
 [neuralPCAClassifier.py](https://github.com/bazyliszek/methAI/blob/main/neuralPCAClassifier.py) uses 'nn.py' to build a neural net with a specified architecture and train it to classify a data set.
+
+[cutoffRoc2.py](https://github.com/bazyliszek/methAI/blob/main/cutoffRoc2.py) Trains a number of neural nets to classify the processed data, then performs ROC analysis on them and plots a graph of each neural net's performance.
 
 # Abstract
 
