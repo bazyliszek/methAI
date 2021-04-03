@@ -1,7 +1,7 @@
 '''
 Created on 14 Nov 2016
 
-@author: fruitdragon
+@team: marcin&jan
 '''
 
 
