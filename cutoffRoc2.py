@@ -57,7 +57,7 @@ def getRandomRocPoints(patients):
     
     return (sensitivities, negSpecificities)
 
-def getRocPoints(patients, nodes, iterations, useBoth = False, test = False):
+def getRocPoints(patients, nodes, iterations, name = None, useBoth = False, test = False):
     classifier = Classifier(patients["training"], hiddenLayerSize = nodes)
     classifier.train(maxIterations = iterations)
     
@@ -111,6 +111,8 @@ def getRocPoints(patients, nodes, iterations, useBoth = False, test = False):
         sensitivities.append(truePos/(falseNeg+truePos))
         negSpecificities.append(1-(trueNeg/(falsePos+trueNeg)))
     
+    if(name != None):
+        classifier.save(name+"_nn_weights.pkl")
     return (sensitivities, negSpecificities)
 
 
@@ -340,7 +342,8 @@ for cancerType in ["Bladder","Kidney","Prostate"]:
             sens, negSpec = getRandomRocPoints(patients)
             name = "Random"
         else:
-            sens, negSpec = getRocPoints(patients, neuralNet, netIterations, includeTraining, test=TEST)
+            weightsPickleName = cancerType+"_nn" +str(neuralNet) + "_weights.pkl"
+            sens, negSpec = getRocPoints(patients, neuralNet, netIterations, weightsPickleName, includeTraining, test=TEST)
             name = "NN(" +str(neuralNet) + ")"
                 
         AUC = areaUnderCurve(sens, negSpec)
