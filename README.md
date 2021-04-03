@@ -20,7 +20,7 @@ createPcaSetv4 is given a folder containing subfolders containing jhu files. It 
 Takes the following arguments:
 -i Input folder where the superfolders of the jhu files to be processed can be found.
 
--s Controls how the training, validation, and testing sets are divided. Expects text in the form "a\:b\:c" or "a\:b" where a is the training set, b is validation and c is testing. If testing is omitted then it is assumed to be 1-(a+b)
+-s Controls how the training, validation, and testing sets are divided. Expects text in the form "a\: b\: c" or "a\:b" where a is the training set, b is validation and c is testing. If testing is omitted then it is assumed to be 1-(a+b)
 
 -r random seed (used to ensure the same patients get sorted into the testing, training, and validation sets each time)
 
