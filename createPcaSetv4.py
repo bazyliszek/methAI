@@ -1,7 +1,7 @@
 '''
 Created on 8 Jun 2019
 
-@author: fruitdragon
+@team: marcin&jan
 '''
 import os
 import pickle
