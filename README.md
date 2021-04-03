@@ -9,3 +9,7 @@ We used genome-wide DNA methylation patterns from both cancerous and normal tiss
 These methods could likely be translated to other cancers and improved by using non-invasive liquid methods such as blood instead of biopsy tissue.
 
 Keywords  AI, deep learning, biomarkers, decision tree, DNA methylation, machine learning, neural network, GDC, TCGA, urological cancers, prostate, kidney, bladder
+
+
+Pipeline
+![alt text](https://github.com/bazyliszek/methAI/blob/main/img/basic%20pipeline.png)
