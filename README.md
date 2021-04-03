@@ -3,6 +3,7 @@ Containes python scripts for methAI paper
 
 # Content
 
+File 'nn.py' contains code to build and train a neural net on numerical input.
 
 # Abstract
 
