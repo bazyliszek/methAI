@@ -13,6 +13,8 @@ Containes python scripts for methAI paper
 
 [cutoffRoc2.py](https://github.com/bazyliszek/methAI/blob/main/cutoffRoc2.py) Trains a number of neural nets to classify the processed data, then performs ROC analysis on them and plots a graph of each neural net's performance.
 
+[cutoffRoc3.py](https://github.com/bazyliszek/methAI/blob/main/cutoffRoc3.py) Trains a number of neural nets to classify the processed data, then performs ROC analysis on them and plots a graph of each neural net's performance. For 5 randomly mixed tranining sets. This part was implemented during review process.
+
 # Details
 ## createPcaSetv4.py
 createPcaSetv4 is given a folder containing subfolders containing jhu files. It reads them and removes any that contain too many NAs, then reduces the datapoints to a given number of dimesions using either PCA to compress the locations together or a decision tree to select the locations most likely to be useful for further analysis.
