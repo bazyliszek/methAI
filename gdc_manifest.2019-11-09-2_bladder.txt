@@ -1,5 +1,5 @@
 id	filename	md5	size	state
-e04f1d47-7f9d-49e5-9dbe-b4052a921ea4	jhu-usc.edu_BLCA.HumanMethylation450.17.lvl-3.TCGA-S5-A6DX-01A-11D-A31M-05.gdc_hg38.txt	ad740f4778f0c07e8d613d9ff81ff903	141291803	released
+e04f1d47-7f9d-49e5-9dbe-b4052a921ea4	jhu-usc.edu_BLCA.HumanMethylation450.17.lvl-3.TCGA-S5-A6DX-01A-11D-A31M-05.gdc_hg38.txt	ad740f4778f0c07e8d613d9ff81ff903	141291803	release
 023056f0-eb91-4796-9b9c-7347b061bcec	jhu-usc.edu_BLCA.HumanMethylation450.22.lvl-3.TCGA-XF-A9T8-01A-11D-A392-05.gdc_hg38.txt	060fed3f8d82e6500be294f964054a71	141285826	released
 7d86429e-f598-4b96-b3cc-1ac32810ac5e	jhu-usc.edu_BLCA.HumanMethylation450.22.lvl-3.TCGA-G2-AA3B-01A-11D-A392-05.gdc_hg38.txt	df7ebfb78166a348e91766cdb987d9e8	141279202	released
 cb301fbb-f56a-41db-9152-d0e530a96f2b	jhu-usc.edu_BLCA.HumanMethylation450.2.lvl-3.TCGA-DK-A1A6-01A-11D-A13Z-05.gdc_hg38.txt	ab017bcede1ae4e487459f1979488089	141269943	released
