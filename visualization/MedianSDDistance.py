@@ -1,9 +1,3 @@
-'''
-Created on 4 Dec 2020
-
-@team: marcin&jan
-'''
-
 import pickle
 
 # - ((CancerMedian - cutoff)/CancerSD) * ((NormalMedian - cutoff)/NormalSD) 
