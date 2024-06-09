@@ -1,9 +1,3 @@
-'''
-Created on 14 Nov 2016
-
-@team: marcin&jan
-'''
-
 import nn
 import pickle
 from random import shuffle
