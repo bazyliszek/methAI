@@ -1,10 +1,3 @@
-'''
-Created on 31 Oct 2020
-
-@team: marcin&jan
-'''
-
-
 import pickle
 
 import matplotlib.pyplot as plt
