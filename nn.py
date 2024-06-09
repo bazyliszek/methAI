@@ -1,11 +1,3 @@
-'''
-Created on 14 Nov 2016
-
-@team: marcin&jan
-'''
-
-
-
 import random
 import math
 import time
