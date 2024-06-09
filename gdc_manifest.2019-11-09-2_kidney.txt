@@ -1,5 +1,5 @@
 id	filename	md5	size	state
-c3ee933b-665f-426e-9b7f-e0c657610787	jhu-usc.edu_KIRC.HumanMethylation450.1.lvl-3.TCGA-B0-4688-11A-01D-1275-05.gdc_hg38.txt	ce58c2232e3ff024a69b459660985a19	141299907	released
+c3ee933b-665f-426e-9b7f-e0c657610787	jhu-usc.edu_KIRC.HumanMethylation450.1.lvl-3.TCGA-B0-4688-11A-01D-1275-05.gdc_hg38.txt	ce58c2232e3ff024a69b459660985a19	141299907	release
 81328ef6-bd63-4acc-ba66-34f39c92ec60	jhu-usc.edu_KIRC.HumanMethylation450.1.lvl-3.TCGA-B0-4690-01A-01D-1275-05.gdc_hg38.txt	5f5585ca188302a6a69d5c0328dbf3c7	141281178	released
 919675e8-ee5a-4815-ab83-f02684bc3bf4	jhu-usc.edu_KIRC.HumanMethylation450.1.lvl-3.TCGA-B0-4707-11A-01D-1275-05.gdc_hg38.txt	903c43542b94746c0876a9add5a90fd2	141297449	released
 9da54930-3945-4877-a40c-290e7ec00000	jhu-usc.edu_KIRC.HumanMethylation450.4.lvl-3.TCGA-CZ-5455-01A-01D-1500-05.gdc_hg38.txt	923a64a5c7833c8f220a051b3621ed91	141299164	released
