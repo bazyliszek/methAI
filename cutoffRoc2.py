@@ -1,9 +1,3 @@
-'''
-Created on 29 Jun 2019
-
-@team: marcin&jan
-'''
-
 import os
 import pickle
 from neuralPCAClassifier import Classifier
