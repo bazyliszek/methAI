@@ -1,8 +1,3 @@
-'''
-Created on 16 Apr 2020
-
-@team: marcin&jan
-'''
 import pickle
 
 import matplotlib.pyplot as plt
