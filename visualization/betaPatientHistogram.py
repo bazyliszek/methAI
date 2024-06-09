@@ -1,10 +1,3 @@
-'''
-Created on Mar 10, 2018
-
-@team: marcin&jan
-'''
-
-
 import matplotlib
 import os
 matplotlib.use('Agg')
