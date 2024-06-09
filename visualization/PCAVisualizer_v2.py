@@ -1,10 +1,3 @@
-'''
-Created on 15 Jun 2019
-
-@team: marcin&jan
-'''
-
-
 import pickle
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
