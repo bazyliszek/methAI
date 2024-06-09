@@ -1,5 +1,7 @@
 # methAI
-Containes python scripts for methAI article
+Containes python scripts for methAI, version in Zenodo:
+
+[![DOI](https://zenodo.org/badge/320275625.svg)](https://zenodo.org/doi/10.5281/zenodo.11530986)
 
 # Summary
 
@@ -65,9 +67,6 @@ Python 3.0
 All example datasets were used in previously published studies. We used publicly available and anonymous data from The Cancer Genome Atlas and Harmonized Cancer Datasets in the Genomic Data Commons Data Portal (https://www.cancer.gov/tcga , https://portal.gdc.cancer.gov/) investigating kidney, prostate and bladder tissues (dataset https://portal.gdc.cancer.gov/legacyarchive/search/f) assayed in multiple, independent experiments using the Illumina 450k microarray. 
 
 The clinical metadata and the manifest file of the samples were downloaded through the GDC legacy archive on 2019-10-19 and 2019-11-09.  We used the Genomic Data Commons (GDC) data download tool (https://gdc.cancer.gov/access-data/gdc-data-transfer-tool) using the manifest files deposited on our GitHub.
-
-Zenodo link to this version:
-[![DOI](https://zenodo.org/badge/320275625.svg)](https://zenodo.org/doi/10.5281/zenodo.11530986)
 
 
 All methylation data were already normalized across samples by the GDC consortium and therefore were ready for further processing. Nevertheless, to further confirm that the normalization between datasets was done correctly by GDC we plotted a histogram of the two datasets for each tissue type and calculated the first four moments for the distributions between cancer and normal samples for each tissue type (Supplementary S1) to check that there were no noticeable differences between the two groups. 
