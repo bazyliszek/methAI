@@ -1,9 +1,3 @@
-'''
-Created on 21 Nov 2016
-
-@team: marcin&jan
-'''
-
 from math import log
 import pickle
 import os
