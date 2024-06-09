@@ -1,8 +1,3 @@
-'''
-Created on 8 Sep 2019
-
-@team: marcin&jan
-'''
 import pickle
 import os
 from numpy import mean, std
